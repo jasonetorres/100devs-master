@@ -1,0 +1,87 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+  background-image: url(https://placekitten.com/700/600);
+  
+  color: ghostwhite;
+
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  width: 100%;
+
+}
+header nav *{
+  display: inline;
+
+}
+header nav ul{
+  text-align: center;
+  width: 100%;
+}
+
+header li {
+  list-style-type: none;
+  display:inline;
+}
+button {
+  background: black;
+  color: ghostwhite;
+}
+div{
+text-align: center;
+width: ;
+}
+div section aside{
+  float:left;
+  width:20%;
+  background-color: black;
+}
+p{
+  word-wrap: break-word;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#book{
+  background:ghostwhite;
+  color:black;
+}
+.two{
+  float: left;
+  width:26%;
+}
+.three{
+  float:left;
+}
+.four{
+
+}

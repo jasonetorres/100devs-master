@@ -1,0 +1,117 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES*/
+/*******************************************/
+
+body {
+  background-color: #393646;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: #6D5D6E;
+  margin-top: 0px;
+}
+
+body header {
+  height: 100px;
+  width: auto;
+  color: whitesmoke;
+}
+
+
+header nav ul li a {
+  float: left;
+  width: 10%;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+header button {
+  float: right;
+}
+
+main>section {
+  float: left;
+  width: auto;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+main>section h1 {
+  margin: 200px auto 0 auto;
+}
+
+p {}
+
+section>section {
+  float: left;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+footer {
+  height: 200px;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  color: #393646;
+  padding: 20px;
+}
+
+footer a {
+  float: left;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.container {
+  background-color: rgba(99, 70, 82, 0.651);
+}
+
+.box {
+  height: 150px;
+  width: 200px;
+  border: 1px solid ghostwhite;
+  background-color: rgba(99, 70, 82, 0.651);
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+
+.h1 {
+  margin: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
